@@ -1,0 +1,11 @@
+The OxCGRT project also calculate a Containment and Health Index, a composite measure of thirteen of the response metrics.
+
+This index builds on the Government Stringency Index, using its nine indicators plus testing policy, the extent of contact tracing, requirements to wear face coverings, and policies around vaccine rollout. It’s therefore calculated on the basis of the following thirteen metrics: school closures; workplace closures; cancellation of public events; restrictions on public gatherings; closures of public transport; stay-at-home requirements; public information campaigns; restrictions on internal movements; international travel controls; testing policy; extent of contact tracing; face coverings; and vaccine policy.
+
+You can explore changes in these individual metrics across the world in the sections which follow in this article.
+
+The index on any given day is calculated as the mean score of the eleven metrics, each taking a value between 0 and 100. See the authors’ full description of how this index is calculated.
+
+A higher score indicates a stricter response (i.e. 100 = strictest response). If policies vary at the subnational level, the index is shown as the response level of the strictest sub-region.
+
+It’s important to note that this index simply records the strictness of government policies. It does not measure or imply the appropriateness or effectiveness of a country’s response. A higher score does not necessarily mean that a country’s response is ‘better’ than others lower on the index.
