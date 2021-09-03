@@ -1,4 +1,4 @@
-# The Reactions of the German Stock Market to COVID-19 and Containment Policies: A Vector Autoregressive Analysis!
+# The Reactions of the German Stock Market to COVID-19 and Containment Policies: A Vector Autoregressive Analysis
 
 The infectious respiratory disease Covid-19 caused by the novel corona virus SARS-CoV-2 has been taking its toll on the health of people and economies worldwide. Since its emergence during late 2019 in the Chinese city of Wuhan (Sohrabi et al., 2020), the virus rapidly spread across borders leading to a contraction among millions of people. Governments around the world swiftly reacted by instituting unprecedented containment measures. By March 2020 more than 100 countries have introduced full or partial lockdowns (Hale et al., 2021) and during large periods between 2020 and 2021 social distancing measures as well as local, national and international moving restrictions were put in place as a global race for the development and supply of effective vaccinations unfolded.
 
@@ -11,3 +11,27 @@ Due to the far-reaching consequences of Covid-19 and the inherently conflicting 
 Because of the complex emergency situation and a large variety of different government instituted measures, it is, however, not exactly obvious how and why financial markets reacted to the pandemic. While during February and March 2020 global stock prices dropped and experienced extreme volatility with a magnitude comparable to the great financial crisis of 2008 or the black Monday of 1987 (Baker et al., 2020), they quickly rebounded and even reached new all-time-highs in the months thereafter (in footnote auf charts im appendix verweisen).
 
 In order to better understand how the German financial market was influenced by the Covid-19 pandemic, this study sets out to analyze the reactions of the stock market to the trajectory of the pandemic and related containment and health measures. Specifically, this study tries to extract information from forward looking asset prices by fitting a vector autoregressive model to stock price data, a policy stringency index and daily news on reported Covid-19 cases and, as a second step, analyzes how the dynamics changed throughout different phases of the pandemic.
+
+
+## Documents:
+
+Notebooks:
+*  data-preparation.ipynb _(fetching, joining and preparing the data for further analysis)
+*  data-descriptive.ipynb _(generating descriptive statistics and plots for the prepared and non-transformed data)
+*  find_stationary_timeseries.ipynb _(scripts to find suitible data transformations for stationarity of the variables to use in VAR Model)
+*  var_model.ipynb _(VAR model specification, estimation and diagnosis)
+
+.csv files:
+* hdax-data.csv _(Source data on the German HDAX index from investing.com)
+* owid-covid-data.csv _(Source data on the Covid-19 pandemic from OurWorldInData)
+* prepared_data.csv _(joined and cleaned data)
+* prepared_data_sample_1.csv _(joined and cleaned data for the first infection wave)
+* prepared_data_sample_2.csv _(joined and cleaned data for the second infection wave)
+* prepared_data_sample_full.csv _(joined and cleaned data for the full sample time frame)
+* transformed_data_sample_1.csv _(data ready for input into VAR-Model for the first infection wave)
+* transformed_data_sample_2.csv _(data ready for input into VAR-Model for the second infection wave)
+* transformed_data_sample_full.csv _(data ready for input into VAR-Model for the full sample timeframe)
+
+Plots:
+* _(all plots are exported from above mentioned notebooks)
+
