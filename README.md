@@ -3,21 +3,21 @@
 ## Documents:
 
 Notebooks:
-*  data-preparation.ipynb *(fetching, joining and preparing the data for further analysis)*
-*  data-descriptive.ipynb *(generating descriptive statistics and plots for the prepared and non-transformed data)*
-*  find_stationary_timeseries.ipynb *(scripts to find suitible data transformations for stationarity of the variables to use in VAR Model)*
-*  var_model.ipynb *(VAR model specification, estimation and diagnosis)*
+*  **data-preparation.ipynb** *(fetching, joining and preparing the data for further analysis)*
+*  **data-descriptive.ipynb** *(generating descriptive statistics and plots for the prepared and non-transformed data)*
+*  **find_stationary_timeseries.ipynb** *(scripts to find suitible data transformations for stationarity of the variables to use in VAR Model)*
+*  **var_model.ipynb** *(VAR model specification, estimation and diagnosis)*
 
 .csv files:
-* hdax-data.csv *(Source data on the German HDAX index from investing.com)*
-* owid-covid-data.csv *(Source data on the Covid-19 pandemic from OurWorldInData)*
-* prepared_data.csv *(joined and cleaned data)*
-* prepared_data_sample_1.csv *(joined and cleaned data for the first infection wave)*
-* prepared_data_sample_2.csv *(joined and cleaned data for the second infection wave)*
-* prepared_data_sample_full.csv *(joined and cleaned data for the full sample time frame)*
-* transformed_data_sample_1.csv *(data ready for input into VAR-Model for the first infection wave)*
-* transformed_data_sample_2.csv *(data ready for input into VAR-Model for the second infection wave)*
-* transformed_data_sample_full.csv *(data ready for input into VAR-Model for the full sample timeframe)*
+* **hdax-data.csv** *(Source data on the German HDAX index from investing.com)*
+* **owid-covid-data.csv** *(Source data on the Covid-19 pandemic from OurWorldInData)*
+* **prepared_data.csv** *(joined and cleaned data)*
+* **prepared_data_sample_1.csv** *(joined and cleaned data for the first infection wave)*
+* **prepared_data_sample_2.csv** *(joined and cleaned data for the second infection wave)*
+* **prepared_data_sample_full.csv** *(joined and cleaned data for the full sample time frame)*
+* **transformed_data_sample_1.csv** *(data ready for input into VAR-Model for the first infection wave)*
+* **transformed_data_sample_2.csv** *(data ready for input into VAR-Model for the second infection wave)*
+* **transformed_data_sample_full.csv** *(data ready for input into VAR-Model for the full sample timeframe)*
 
 Plots:
 * _(all plots are exported from above mentioned notebooks)
