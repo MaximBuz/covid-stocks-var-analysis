@@ -20,7 +20,7 @@ Notebooks:
 * **transformed_data_sample_full.csv** *(data ready for input into VAR-Model for the full sample timeframe)*
 
 Plots:
-* _(all plots are exported from above mentioned notebooks)
+* *(all plots are exported from above mentioned notebooks)*
 
 ## Introduction:
 
