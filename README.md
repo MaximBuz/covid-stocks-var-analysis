@@ -3,10 +3,10 @@
 ## Documents:
 
 Notebooks:
-*  **data-preparation.ipynb** *(fetching, joining and preparing the data for further analysis)*
-*  **data-descriptive.ipynb** *(generating descriptive statistics and plots for the prepared and non-transformed data)*
-*  **find_stationary_timeseries.ipynb** *(scripts to find suitible data transformations for stationarity of the variables to use in VAR Model)*
-*  **var_model.ipynb** *(VAR model specification, estimation and diagnosis)*
+*  **01-data-preparation.ipynb** *(fetching, joining and preparing the data for further analysis)*
+*  **02-data-descriptive.ipynb** *(generating descriptive statistics and plots for the prepared and non-transformed data)*
+*  **03-find-stationary-timeseries.ipynb** *(scripts to find suitible data transformations for stationarity of the variables to use in VAR Model)*
+*  **04-var-models.ipynb** *(VAR model specification, estimation and diagnosis)*
 
 .csv files:
 * **hdax-data.csv** *(Source data on the German HDAX index from investing.com)*
@@ -21,6 +21,9 @@ Notebooks:
 
 Plots:
 * *(all plots are exported from above mentioned notebooks)*
+
+pdf_code:
+* this folder includes all notebooks exported as pdf files *
 
 ## Introduction:
 
